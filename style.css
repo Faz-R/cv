@@ -292,7 +292,7 @@ a{
 .html-skill::after{
     content: "";
     position: absolute;
-    width: 110px;
+    width: 130px;
     height: 3px;
     left: 140px;
     top: 0.5em;
@@ -302,7 +302,7 @@ a{
 .css-skill::after{
     content: "";
     position: absolute;
-    width: 90px;
+    width: 130px;
     height: 3px;
     left: 140px;
     top: 0.5em;
@@ -312,17 +312,7 @@ a{
 .js-skill::after{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 3px;
-    left: 140px;
-    top: 0.5em;
-    background-color: #ffca05;
-}
-
-.git-skill::after{
-    content: "";
-    position: absolute;
-    width: 70px;
+    width: 100px;
     height: 3px;
     left: 140px;
     top: 0.5em;
