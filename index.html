@@ -101,58 +101,55 @@
                 <li>RS School - Front-end/React Developer</li>
               </ul>
             </section>
-          
-            <section class="section" id="code">
-              <h2 class="section-title">Code</h2>
-              <div class="example-code">
-                <details class="code" value="show">
-                  <summary>Show code</summary>
-                  <code>
-const time = document.querySelector('.time');<br>
-const date = document.querySelector('.date');<br>
-const options = {weekday: 'long', month: 'long', day: 'numeric'};<br>
-setInterval(() => {<br>
-  time.textContent = new Date().toLocaleTimeString();<br>
-  date.textContent = new Date().toLocaleDateString(['localDate'], options);<br>
-}, 1000);
-                  </code>
-                <div class="result">
-                  <span>Result:</span>
-                  <div class="time"></div>
-                  <div class="date"></div>
-                </div>
-                <script>
-                    const time = document.querySelector('.time');
-                    const date = document.querySelector('.date');
-                    
-                    const options = {weekday: 'long', month: 'long', day: 'numeric'};
-                    setInterval(() => {
-                        time.textContent = new Date().toLocaleTimeString();
-                        date.textContent = new Date().toLocaleDateString(options);}, 1000);
-                </script>
-                </details>
-              </div>
-              
-            </section>
 
             <section class="section" id="projects">
               <h2 class="section-title">Projects</h2>
               <ul class="project-list">
                 <li class="project-item">
+                  <a href="https://viewpoint-site.netlify.app/" target="_blank">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/viewpoint.jpg" alt="viewpoint">
+                    </div>
+                    <span class="project-item-name">Viewpoint</span>
+                  </a>
+                </li>
+                <li class="project-item">
+                  <a href="https://faz-online-store.netlify.app/" target="_blank">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/online-store.jpg" alt="online-store">
+                    </div>
+                    <span class="project-item-name">Online store</span>
+                  </a>
+                </li>
+                <li class="project-item">
+                  <a href="https://songbird-faz.netlify.app/game.html" target="_blank">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/songbird.jpg" alt="songbird">
+                    </div>
+                    <span class="project-item-name">Songbird</span>
+                  </a>
+                </li>
+                <li class="project-item">
                   <a href="https://faz-r.github.io/travel/" target="_blank">
-                    <img class="project-item-image" src="assets/img/third-project.jpg" alt="Travel" width="1086" height="616">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/third-project.jpg" alt="Travel" width="1086" height="616">
+                    </div>
                     <span class="project-item-name">Travel</span>
                   </a>
                 </li>
                 <li class="project-item">
                   <a href="https://faz-r.github.io/momentum/" target="_blank">
-                    <img class="project-item-image" src="assets/img/second-project.jpg" alt="Momentum" width="1086" height="616">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/second-project.jpg" alt="Momentum" width="1086" height="616">
+                    </div>
                     <span class="project-item-name">Momentum</span>
                   </a>
                 </li>
                 <li class="project-item">
                   <a href="https://faz-r.github.io/online-zoo/pages/main/" target="_blank">
-                    <img class="project-item-image" src="assets/img/online-zoo.jpg" alt="online-zoo" width="1086" height="616">
+                    <div class="project-item__picture">
+                      <img class="project-item-image" src="assets/img/online-zoo.jpg" alt="online-zoo" width="1086" height="616">
+                    </div>
                     <span class="project-item-name">Online Zoo</span>
                   </a>
                 </li>

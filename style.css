@@ -330,11 +330,16 @@ a{
 }
 
 .example-code{
+    width: 100%;
     line-height: 1.5em;
     font-size: 16px;
     padding: 30px 40px;
     margin-right: 50px;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.example-code__code{
+    white-space: pre-wrap;
 }
 
 details{
@@ -367,22 +372,35 @@ details{
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2%;
 
 }
 
 .project-item{
-    width: 300px;
-    height: 190px;
+    display: block;
+    width: 49%;
     padding-bottom: 30px;
-    padding-right: 40px;
     text-align: center;
+}
+
+.project-item__picture{
+    width: 100%;
+    padding-bottom: 60%;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .project-item-image{
     width: 100%;
-    height: max-content;
-    padding-bottom: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
     transition: transform 1s;
 }
 
