@@ -1,2 +1,2 @@
-# rsschool-cv
-https://Faz-R.github.io/rsschool-cv/
+# CV
+https://faz-r.github.io/cv
